@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classy Name Entry</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(img4.jpg);
+            background-size: cover;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .container input {
+            border: none;
+            background: none;
+            border-bottom: 2px solid #fff;
+            padding: 10px;
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 20px;
+            width: 80%;
+        }
+        .container input:focus {
+            outline: none;
+            border-bottom-color: #f39c12;
+        }
+        .button {
+            background: #33c7f8;
+            border: none;
+            padding: 10px 20px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.3s;
+            border-radius: 10px; /* Added border-radius */
+            text-decoration: none; /* Removed underline */
+        }
+        .button:hover {
+            box-shadow: 0 0 30px #d9dae4; /* Increased glow effect */
+        }
+        .link-section {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Enter your name" id="name-input">
+        <a href="flower.html" class="button">Submit</a>
+        <div class="link-section" id="link-section">
+        </div>
+    </div>
+</body>
+</html>
